@@ -1,2 +1,4 @@
 back-end/node_modules/*
 front-end/sass-cache/*
+front-end/server.js
+front-end/node_modules/*

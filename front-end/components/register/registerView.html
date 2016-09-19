@@ -1,0 +1,45 @@
+<div ng-controller="registerController">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form id="registration-form" class="form-register" ng-submit="register()">
+                    <div class="form-register-with-email">
+                        <div class="form-white-background">
+                            <div class="form-title-row">
+                                <h1>Create an account</h1>
+                            </div>
+                            <div class="form-row">
+                                <label>
+                                    <span>Username</span>
+                                    <input type="text" ng-model="username" placeholder="Enter your username" minlength="4" maxlength="50" class="form-control">
+                                </label>
+                            </div>
+                            <div class="form-row">
+                                <label>
+                                    <span>Password</span>
+                                    <input type="password" ng-model="password" placeholder="Enter your password" minlength="4" maxlength="50" class="form-control">
+                                </label>
+                            </div>
+                            <div class="form-row">
+                                <label>
+                                    <span>Confirm Password</span>
+                                    <input type="password" ng-model="password2" placeholder="Confirm password" minlength="4" maxlength="50" class="form-control">
+                                </label>
+                            </div>
+                            <div class="form-row">
+                                <label>
+                                    <span>Email</span>
+                                    <input type="text" ng-model="email" placeholder="Enter your email" minlength="4" maxlength="50" class="form-control">
+                                </label>
+                            </div>
+                            <div class="form-row">
+                                <button type="submit">Register</button>
+                            </div>
+                        </div>
+                        <a ng-href="#/login" class="form-log-in-with-existing">Already have an account? Login here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

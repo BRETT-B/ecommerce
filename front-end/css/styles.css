@@ -1,0 +1,251 @@
+/* line 4, ../compass/sass/styles.scss */
+.navbar-brand {
+  padding: 0px;
+}
+
+/* line 7, ../compass/sass/styles.scss */
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+/* line 12, ../compass/sass/styles.scss */
+.nav-wrapper .navbar-brand {
+  height: 80px;
+}
+
+/* line 16, ../compass/sass/styles.scss */
+.nav-wrapper .nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 20, ../compass/sass/styles.scss */
+.nav-wrapper .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+/* line 25, ../compass/sass/styles.scss */
+.form-register {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font: bold 14px sans-serif;
+  text-align: center;
+}
+
+/* line 34, ../compass/sass/styles.scss */
+.form-register-with-email {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 130px;
+  text-align: center;
+}
+
+/* line 42, ../compass/sass/styles.scss */
+.form-register-with-email .form-white-background {
+  width: 570px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 60px 80px;
+  margin-bottom: 35px;
+}
+
+/* line 51, ../compass/sass/styles.scss */
+.form-register-with-email .form-row {
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+/* line 56, ../compass/sass/styles.scss */
+.form-register-with-email .form-title-row {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 61, ../compass/sass/styles.scss */
+.form-register-with-email h1 {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #4c565e;
+  font-size: 24px;
+  padding: 0 20px 15px;
+  border-bottom: 2px solid #6caee0;
+  margin: 0;
+}
+
+/* line 71, ../compass/sass/styles.scss */
+.form-register-with-email .form-row > label span {
+  display: inline-block;
+  box-sizing: border-box;
+  color: #5f5f5f;
+  width: 125px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+/* line 80, ../compass/sass/styles.scss */
+.form-register-with-email input {
+  color: #5f5f5f;
+  box-sizing: border-box;
+  width: 230px;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 12px 18px;
+  border: 1px solid #dbdbdb;
+}
+
+/* line 89, ../compass/sass/styles.scss */
+.form-register-with-email input {
+  margin-left: 128px;
+  margin-right: 10px;
+  width: auto;
+  vertical-align: top;
+}
+
+/* line 96, ../compass/sass/styles.scss */
+.form-register-with-email .form-row span {
+  font-size: 12px;
+  font-weight: normal;
+  display: inline-block;
+  text-align: left;
+  width: 220px;
+  margin: 0;
+}
+
+/* line 105, ../compass/sass/styles.scss */
+.form-register-with-email span a {
+  text-decoration: none;
+  color: #6caee0;
+}
+
+/* line 110, ../compass/sass/styles.scss */
+.form-register-with-email button {
+  display: block;
+  border-radius: 2px;
+  background-color: #6caee0;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 15px 35px;
+  border: 0;
+  margin: 55px auto 0;
+  cursor: pointer;
+}
+
+/* line 123, ../compass/sass/styles.scss */
+.form-register-with-email {
+  text-decoration: none;
+  padding: 4px 8px;
+  font-weight: normal;
+  color: #49A5FF;
+  background-color: #9AD2FF;
+}
+
+/* line 131, ../compass/sass/styles.scss */
+.form-title-row {
+  margin-bottom: 50px;
+}
+
+/*	Making the form responsive. Remove these media queries
+    if you don't need the form to work on mobile devices. */
+@media (max-width: 900px) {
+  /* line 140, ../compass/sass/styles.scss */
+  .form-register {
+    margin: 20px auto;
+  }
+
+  /* line 144, ../compass/sass/styles.scss */
+  .form-register-with-email {
+    position: relative;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 150, ../compass/sass/styles.scss */
+  .form-register-with-email .form-white-background {
+    margin: 0 auto 32px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 158, ../compass/sass/styles.scss */
+  .form-register-with-email .form-white-background {
+    width: 300px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  /* line 164, ../compass/sass/styles.scss */
+  .form-register-with-email .form-row > label span {
+    display: block;
+    text-align: left;
+    padding: 0 0 10px;
+  }
+
+  /* line 170, ../compass/sass/styles.scss */
+  .form-register-with-email input {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 175, ../compass/sass/styles.scss */
+  .form-register-with-email input {
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  /* line 180, ../compass/sass/styles.scss */
+  .form-register-with-email span {
+    width: 200px !important;
+  }
+}
+/* line 186, ../compass/sass/styles.scss */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+/* line 191, ../compass/sass/styles.scss */
+.form-signin .form-signin-heading,
+.form-signin {
+  margin-bottom: 10px;
+}
+
+/* line 195, ../compass/sass/styles.scss */
+.form-signin {
+  font-weight: normal;
+}
+
+/* line 198, ../compass/sass/styles.scss */
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* line 207, ../compass/sass/styles.scss */
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+/* line 210, ../compass/sass/styles.scss */
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 215, ../compass/sass/styles.scss */
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
